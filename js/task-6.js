@@ -17,7 +17,6 @@ createButton.addEventListener('click', () => {
     return;
   }
 
-
   destroyBoxes();
   createBoxes(amount);
   input.value = '';
@@ -26,7 +25,6 @@ createButton.addEventListener('click', () => {
 destroyButton.addEventListener('click', () => {
   destroyBoxes();
 });
-
 
 function createBoxes(amount) {
   const elements = [];
